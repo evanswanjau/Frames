@@ -1,0 +1,114 @@
+body{
+    background-color: #292929;
+    font-size: 1.3rem;
+}
+/*Section Header */
+.section-header{
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 20px 20px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.section-header p{
+    display: inline-block;
+    float: left;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+.section-header a{
+    float: right;
+    text-transform:uppercase;
+    font-size: 24px;
+    padding: 5px 25px;
+    background-color: #fff;
+    color: #2ecc71;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.section-header a:hover{
+    background-color: #404040;
+    color: #fff;
+}
+.section-padding{
+    padding:80px 0px;
+
+}
+.step-installer{
+    overflow: hidden;
+    background-color: #3a3a3a;
+    min-width: 650px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-align: center;
+    border:2px solid #2ecc71;
+    padding: 20px 20px;
+}
+/*Second Installer*/
+.first-installer h1{
+    color: #fff;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.first-installer h4{
+    margin:20px 0px;
+    color: #fff;
+    text-align: left;
+}
+.first-installer p{
+    margin-bottom:30px;
+    color: #fff;
+}
+.first-installer .form-check{
+    float: left;
+    margin-top:15px;
+}
+.first-installer .button {
+    float: right;
+}
+.first-installer .button a{
+    padding:10px 30px;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    background-color:#2ecc71;
+    border:none;
+}
+.first-installer .form-check label{
+    color: #fff;
+}
+/*Second Installer*/
+.second-installer .installer-content table{
+    color: #fff;
+}
+/*Third Installer*/
+.third-installer .installer-content form button{
+    background-color: #2ecc71;
+    outline: none;
+    border:none;
+    font-size: 25px;
+    padding:10px 20px;
+    margin-top: 30px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.third-installer .installer-content form button:hover{
+    background-color: #292929;
+}
+.installer-header {
+    border-bottom: 1px solid #2ecc71;
+    margin-bottom: 24px;
+}
